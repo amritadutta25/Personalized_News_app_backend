@@ -110,4 +110,6 @@ To install all dependencies, run
 | Favourite ID | Unique identifier for the news article (Primary Key) |
 | User ID | Identifier for the user who liked the news articles (Foreign Key linked to User) |
 | Article ID | News Article ID (Foreign Key linked to NewsArticle) |
+| Tags | List of tags added by user for categorization and identification |
+| Personal Title | Title added by user for a liked news article |
 
