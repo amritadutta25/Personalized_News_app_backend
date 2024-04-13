@@ -33,9 +33,9 @@ To install all dependencies, run
 - Admin user can update tags and categories of news articles
 - Admin user can delete outdated, incorrect, or irrelevant articles from the database
 
-- Users can bookmark news articles they like and add a personalized title
+- Users can bookmark news articles they like and add a personalized title and tags for identification
 - Users can view all bookmarked news articles
-- Users can update their bookmarked list by updating their category or personalized title
+- Users can update their bookmarked list by updating their tags or personalized title
 - Users can delete bookmarked news articles 
 
 
@@ -51,8 +51,8 @@ To install all dependencies, run
 | Create | /news/ | POST | A user creates a news article|
 | Create | /news/fetch | POST | Admin fetched news articles from third party API|
 | Show | /news/:id/ | GET | Renders a news article on a page|
-| Show | /news/:category/ | GET | Renders news articles based on category |
-| Show | /news/:date/ | GET | Renders news articles based on date |
+| Show | /news/:category/ | GET | Renders multiple news articles based on category |
+| Show | /news/:date/ | GET | Renders multiple news articles based on date |
 
 ### Favourite News Articles routes:
 | Route Name | Endpoint | Method | Description |
