@@ -2,7 +2,7 @@
 
 - **App Name:** Personalized News App
 - **Description:** An app to get news based on user preference and interest.
-- **Github URL:** 
+- **Github URL:**  https://github.com/amritadutta25/Personalized_News_app_backend
 - **Deployed Website:** 
 
 # Problem Being Solved and Target Market
